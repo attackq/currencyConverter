@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.converter {
+    margin: 50px 0;
+
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.coverter__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a1bff7;
+    -webkit-box-shadow: 1px 0px 13px 1px rgba(0, 0, 0, 0.66);
+    box-shadow: 1px 0px 13px 1px rgba(0, 0, 0, 0.66);
+
+}
+
+.main {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.title {
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.48);
+}
+
+select {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+
+.value__title {
+    margin-bottom: 15px;
+}
+
+.value {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.value input {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+
+.total {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.total label {
+    margin: 0 10px;
+    padding: 10px 0;
+
+}
+
+.currency__labels {
+    display: flex;
+    flex-direction: column;
+}
+
+.currency__values {
+    display: flex;
+
+    flex-direction: column;
+}
